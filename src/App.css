@@ -1,0 +1,178 @@
+.cont{
+
+  color: rgb(240, 248, 255);
+  height: 500px;
+  width: 100%;
+  
+}
+  .cat{
+ 
+    display: flex;
+    gap:60px;
+    margin: 50px;
+    justify-content: center;
+    padding-top: 30px;
+    
+  }
+  .cat::after{
+   background-color: rgb(6, 7, 7);
+   transition:0.5s ;
+  }
+  .form{
+   text-align: center;
+    
+  }
+  .section{
+    display: inline ;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .image {
+    width: 200px;
+    float: left;
+    margin-right: 70px;
+    
+  }
+  
+  .image img {
+    border-radius: 100%;
+                width: 250px;
+                height: 250px;
+                transition: 0.3s linear;
+  }
+  .image img:hover{ transform: rotate(1080deg);
+    width: 250px;
+    height: 400px;
+}
+.social-icons {
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.social-icons li {
+  margin-right: 20px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  color: #007bff;
+  font-size:2rem;
+  transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+  color: #333;
+  }
+  
+  .card {
+  
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  border:  black;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  width:100%;
+  text-align: center;
+   margin: 0px;
+   margin-top: 50px;
+  }
+  
+  .card:hover {
+  transform: translateY(-30px);
+  }
+  
+  .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  }
+  
+  .card .content {
+    text-align: center;
+
+  text-align: center;
+  }
+  
+  .card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+  
+  .card p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  
+  .slider {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+  text-align: center;
+  }
+  
+  .slide {
+  width: 100%;
+  height: auto;
+  display: none;
+  text-align: center;
+  padding: 20px;
+  }
+  
+  .slide p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  }
+  
+  .slide h4 {
+  font-size: 24px;
+  }
+  
+  .slide.active {
+  display: block;
+  }
+  
+  .slide.prev {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  }
+  
+  .slide.next {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  }
+  
+  #prevBtn, #nextBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  }
+  
+  #prevBtn:hover, #nextBtn:hover {
+  color: #333;
+  }
+  .form h1{
+    color: black;
+  }
+  
